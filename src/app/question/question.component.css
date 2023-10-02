@@ -1,0 +1,25 @@
+.card{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.cursive{
+    font-family: cursive;
+}
+.italic{
+    font-style: italic;
+}
+.resizeimg{
+    width: 40%;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+li .card:hover{
+    border: 1px solid blue;
+}
+ol{
+    padding: 0;
+}

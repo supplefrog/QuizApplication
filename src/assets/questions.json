@@ -1,0 +1,176 @@
+{
+    "questions": [
+      {
+        "questionText": "What does CSS stand for?",
+        "options": [
+          {
+            "text": "Cascading Style Sheets",
+            "correct": true
+          },
+          {
+            "text": "Computer Style Sheets"
+          },
+          {
+            "text": "Creative Style Sheets"
+          },
+          {
+            "text": "Colorful Style Sheets"
+          }
+        ],
+        "explanation": "CSS stands for Cascading Style Sheets, and it is a stylesheet language used to control the presentation and layout of HTML documents. It is commonly used to style web pages and make them visually appealing."
+      },
+      {
+        "questionText": "Which of the following is a server-side programming language?",
+        "options": [
+          {
+            "text": "JavaScript"
+          },
+          {
+            "text": "HTML"
+          },
+          {
+            "text": "PHP",
+            "correct": true
+          },
+          {
+            "text": "CSS"
+          }
+        ],
+        "explanation": "PHP is a server-side programming language designed for web development. It is used to build dynamic web applications and interact with databases on the server-side."
+      },
+      {
+        "questionText": "What is the purpose of the \"alt\" attribute in an HTML image tag?",
+        "options": [
+          {
+            "text": "It defines the alignment of the image."
+          },
+          {
+            "text": "It specifies the URL of the image."
+          },
+          {
+            "text": "It sets the width and height of the image."
+          },
+          {
+            "text": "It provides alternative text for the image",
+            "correct": true
+          }
+        ],
+        "explanation": "The \"alt\" attribute in an HTML image tag is used to provide alternative text for the image. This text is displayed if the image cannot be loaded or if the user is using assistive technologies like screen readers."
+      },
+      {
+        "questionText": "Which of the following is NOT a valid JavaScript data type?",
+        "options": [
+          {
+            "text": "Number"
+          },
+          {
+            "text": "String"
+          },
+          {
+            "text": "Boolean"
+          },
+          {
+            "text": "Array",
+            "correct": true
+          }
+        ],
+        "explanation": "Arrays are not considered a data type in JavaScript; they are objects that can hold multiple values of different types. The valid data types in JavaScript are Number, String, Boolean, Object, Function, Symbol, and null/undefined."
+      },
+      {
+        "questionText": "What does the \"this\" keyword refer to in JavaScript?",
+        "options": [
+          {
+            "text": "It refers to the current function."
+          },
+          {
+            "text": "It refers to the global object."
+          },
+          {
+            "text": "It refers to the parent object."
+          },
+          {
+            "text": "It refers to the current execution context",
+            "correct": true
+          }
+        ],
+        "explanation": "In JavaScript, the \"this\" keyword refers to the current execution context, which depends on how the function is called. It can refer to the global object, the object on which a method is called, or be explicitly set using bind, apply, or call methods."
+      },
+      {
+        "questionText": "What is the purpose of a constructor function in JavaScript?",
+        "options": [
+          {
+            "text": "To create new classes."
+          },
+          {
+            "text": "To initialize and create objects",
+            "correct": true
+          },
+          {
+            "text": "To define global variables."
+          },
+          {
+            "text": "To handle exceptions in code."
+          }
+        ],
+        "explanation": "Constructor functions in JavaScript are used to create and initialize objects. They are like blueprints for creating multiple instances of objects with shared properties and methods."
+      },
+      {
+        "questionText": "What is the significance of the \"async\" attribute in a script tag?",
+        "options": [
+          {
+            "text": "It defines the script as asynchronous, allowing it to load in parallel with other resources",
+            "correct": true
+          },
+          {
+            "text": "It marks the script as the main entry point of the application."
+          },
+          {
+            "text": "It specifies the external source of the script."
+          },
+          {
+            "text": "It sets the script to be executed only after the page has finished loading."
+          }
+        ],
+        "explanation": "Adding the \"async\" attribute to a script tag tells the browser to fetch the script asynchronously while continuing to load the page. This allows the page to load faster, as other resources can continue downloading while the script is fetched and executed in the background."
+      },
+      {
+        "questionText": "Which HTTP method is used for requesting data from a server in Angular applications?",
+        "options": [
+          {
+            "text": "GET",
+            "correct": true
+          },
+          {
+            "text": "POST"
+          },
+          {
+            "text": "PUT"
+          },
+          {
+            "text": "DELETE"
+          }
+        ],
+        "explanation": "The HTTP method \"GET\" is used to request data from a server in Angular applications. It is commonly used for retrieving data from APIs or servers."
+      },
+      {
+        "questionText": "Which directive is used for adding two-way data binding in Angular?",
+        "options": [
+          {
+            "text": "ngFor"
+          },
+          {
+            "text": "ngIf"
+          },
+          {
+            "text": "ngModel",
+            "correct": true
+          },
+          {
+            "text": "ngSwitch"
+          }
+        ],
+        "explanation": "The \"ngModel\" directive is used for adding two-way data binding in Angular. It allows you to bind a form element's value to a component property, so changes in the form element update the component property and vice versa."
+      }
+    ]
+  }
+  
