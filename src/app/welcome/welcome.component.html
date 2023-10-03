@@ -1,5 +1,28 @@
 <div class="container bg-light py-5">
-    <h1 class="display-5 fw-bold">Angular Quiz</h1>
+
+    <div class="text">
+        <div class="wrapper">
+            <div id="A" class="letter">A</div>
+        </div>
+        <div class="wrapper">
+            <div id="N" class="letter">N</div>
+        </div>
+        <div class="wrapper">
+            <div id="G" class="letter">G</div>
+        </div>
+        <div class="wrapper">
+            <div id="U" class="letter">U</div>
+        </div>
+        <div class="wrapper">
+            <div id="L" class="letter">L</div>
+        </div>
+        <div class="wrapper">
+            <div id="A" class="letter">A</div>
+        </div>
+        <div class="wrapper">
+            <div id="R" class="letter">R</div>
+        </div>
+    </div>
     <p class="col-md-8 fs-4">This quiz contains 9 questions. Each question carries 10 points.</p>
     <h4>Rules:</h4>
     <ol>
@@ -8,10 +31,11 @@
         <li>You have 60 seconds to answer each question.</li>
         <li>Refreshing the page will reset the quiz.</li>
     </ol>
-    <h1 class="cursive">Good luck!</h1>
+    <br>
     <div class="name col-md-4 my-3">
         <label for="">Enter your name:</label>
         <input #name type="text" class="form-control" title="Enter your name">
     </div>
-    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz</button>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start</button>
+    <h3 class="cursive">Good luck!</h3>
 </div>

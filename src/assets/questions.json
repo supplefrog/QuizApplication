@@ -51,7 +51,7 @@
             "text": "It sets the width and height of the image."
           },
           {
-            "text": "It provides alternative text for the image",
+            "text": "It provides alternative text for the image.",
             "correct": true
           }
         ],
@@ -89,11 +89,30 @@
             "text": "It refers to the parent object."
           },
           {
-            "text": "It refers to the current execution context",
+            "text": "It refers to the current execution context.",
             "correct": true
           }
         ],
         "explanation": "In JavaScript, the \"this\" keyword refers to the current execution context, which depends on how the function is called. It can refer to the global object, the object on which a method is called, or be explicitly set using bind, apply, or call methods."
+      },
+      {
+        "questionText": "Bonus Question: What is Ligma?",
+        "options": [
+          {
+            "text": "A life-threatening disease."
+          },
+          {
+            "text": "Russian national anthem."
+          },
+          {
+            "text": "Anti-semitic slur."
+          },
+          {
+            "text": "International anti-opression pro freedom-of-speech movement that resides within people's hearts.",
+            "correct": true
+          }
+        ],
+        "explanation": "Joe Mama"
       },
       {
         "questionText": "What is the purpose of a constructor function in JavaScript?",
@@ -102,7 +121,7 @@
             "text": "To create new classes."
           },
           {
-            "text": "To initialize and create objects",
+            "text": "To initialize and create objects.",
             "correct": true
           },
           {
