@@ -42,13 +42,18 @@ export class QuestionComponent implements OnInit {
   }
 
   answer(currentQno: number, option: any) {
-    if(currentQno==this.questionList.length){
-      this.isQuizCompleted=true;
+    const currentQuestion = this.questionList[currentQno - 1];
+    if (currentQuestion.answered) {
+      return;
+    }
+    if (currentQno === this.questionList.length) {
+      this.isQuizCompleted = true;
       this.stopCounter();
     }
     if (option.correct) {
       this.points += 10;
       this.correctAnswer++;
+      currentQuestion.answered = true;
       setTimeout(() => {
         this.currentQuestion++;
         this.resetCounter();
@@ -62,6 +67,13 @@ export class QuestionComponent implements OnInit {
         this.getProgressPerchant();
         this.points -= 10;
       }, 1000);
+    }
+    this.disablePreviousQuestionOptions(currentQno); // add this line
+  }
+  
+  disablePreviousQuestionOptions(currentQno: number) {
+    for (let i = 0; i < currentQno - 1; i++) {
+      this.questionList[i].answered = true;
     }
   }
 
